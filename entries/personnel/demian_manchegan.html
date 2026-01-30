@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entry Page</title>
+
+<!-- IMPORTANT: paths go two levels up -->
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../css/sidebar.css">
+</head>
+<body>
+<div class="scanline-overlay"></div>
+
+<!-- Left Sidebar -->
+<aside class="sidebar-left">
+    <img src="../../assets/logo.png" class="logo" alt="SCiPnet Logo">
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="../../index.html">-------------</a></li>
+        <li><a href="../../category.html?type=personnel">Personnel</a></li>
+        <li><a href="../../category.html?type=scp">SCP Files</a></li>
+        <li><a href="../../category.html?type=people">People of Interest</a></li>
+        <li><a href="../../category.html?type=groups">Groups of Interest</a></li>
+        <li><a href="../../category.html?type=events">Event Logs</a></li>
+    </ul>
+</aside>
+
+<!-- Main Content -->
+<main class="terminal-container">
+    <h1 id="entry-title">Site Director of Protected Site-07</h1>
+
+    <!-- Google Docs embed -->
+    <iframe
+        id="entry-doc"
+        src="https://docs.google.com/document/d/e/2PACX-1vRhN2kJfhcJEHMGNVm5ptbqzEJpjvAuCYiw2TJ3UrCkqSJP9oP-zy0rh0xukofYfIz5IqVRKsfObRe1/pub?embedded=true"
+        width="100%"
+        height="800px"
+        style="border: none;">
+    </iframe>
+</main>
+
+<!-- Right Sidebar -->
+<aside class="sidebar-right">
+    <div class="hume-monitor">
+        <h3>Hume Levels</h3>
+        <div class="hume-bar">
+            <div id="hume-fill"></div>
+        </div>
+        <span id="hume-value">-- Hm</span>
+    </div>
+
+    <div class="latest-events">
+        <h3>Latest Events</h3>
+        <ul id="event-list"></ul>
+    </div>
+</aside>
+
+<!-- IMPORTANT: scripts also go two levels up -->
+<script src="../../js/script.js"></script>
+<script src="../../js/hume.js"></script>
+</body>
+</html>
