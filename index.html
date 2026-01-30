@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCiPnet - Office of The Administrator Mainframe</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/sidebar.css">
+</head>
+<body>
+<div class="scanline-overlay"></div>
+
+<!-- Left Sidebar -->
+<aside class="sidebar-left">
+    <img src="assets/logo.png" class="logo" alt="SCiPnet Logo">
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="index.html">-------------</a></li>
+        <li><a href="category.html?type=personnel">Office Personnel</a></li>
+        <li><a href="category.html?type=scp">SCP Files</a></li>
+        <li><a href="category.html?type=people">People of Interest</a></li>
+        <li><a href="category.html?type=groups">Groups of Interest</a></li>
+        <li><a href="category.html?type=events">Event Logs</a></li>
+    </ul>
+</aside>
+
+<!-- Terminal / Main Content -->
+<main class="terminal-container">
+    <pre id="terminal-output"></pre>
+</main>
+
+<!-- Right Sidebar -->
+<aside class="sidebar-right">
+    <div class="hume-monitor">
+        <h3>Hume Levels</h3>
+        <div class="hume-bar">
+            <div id="hume-fill"></div>
+        </div>
+        <span id="hume-value">-- Hm</span>
+    </div>
+    <div class="latest-events">
+        <h3>Latest Events</h3>
+        <ul id="event-list">
+            <!-- Events will now be populated dynamically by script.js -->
+        </ul>
+    </div>
+</aside>
+
+<script src="js/script.js"></script>
+<script src="js/terminal.js"></script>
+<script src="js/hume.js"></script>
+</body>
+</html>
