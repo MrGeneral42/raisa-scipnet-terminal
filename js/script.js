@@ -28,7 +28,7 @@ function blockMobile() {
 
 // --- Centralized Latest Events ---
 const latestEvents = [
-    { date: "2026-01-26", type: "NOTICE", description: "New personnel inducted into the Office." }
+    { date: "2026-01-26", type: "NOTICE", description: "New personnel inducted into the Surveillance Branch." }
 ];
 
 function populateLatestEvents() {
@@ -61,67 +61,37 @@ function loadCategoryEntries() {
     const entries = {
         personnel: [
             {
-                title: "OOTA – The Administrator",
+                title: "DIRECTOR - Demian Manchegan",
                 access: "granted",
-                link: "entries/personnel/the_administrator.html"
+                link: "entries/personnel/demian_manchegan.html"
             },
             {
-                title: "OOTA – [CLASSIFIED]",
+                title: "RAISA – [CLASSIFIED]",
                 access: "denied",
                 link: null
             },
             {
-                title: "OOTA – [CLASSIFIED]",
+                title: "RAISA – [CLASSIFIED]",
                 access: "denied",
                 link: null
             },
             {
-                title: "OOTA – August Van Roosebeke",
-                access: "granted",
-                link: "entries/personnel/oota_august_van_roosebeke.html"
-            },
-            {
-                title: "OOTA – [CLASSIFIED]",
+                title: "RAISA – [CLASSIFIED]",
                 access: "denied",
                 link: null
             },
             {
-                title: "OOTA – [CLASSIFIED]",
+                title: "RAISA – [CLASSIFIED]",
                 access: "denied",
                 link: null
             },
             {
-                title: "OOTA – [CLASSIFIED]",
+                title: "RAISA – [CLASSIFIED]",
                 access: "denied",
                 link: null
             },
             {
-                title: "OOTA – [CLASSIFIED]",
-                access: "denied",
-                link: null
-            },
-            {
-                title: "OOTA – [CLASSIFIED]",
-                access: "denied",
-                link: null
-            },
-            {
-                title: "OOTA – [CLASSIFIED]",
-                access: "denied",
-                link: null
-            },
-            {
-                title: "OOTA – [CLASSIFIED]",
-                access: "denied",
-                link: null
-            },
-            {
-                title: "OOTA – [CLASSIFIED]",
-                access: "denied",
-                link: null
-            },
-            {
-                title: "OOTA – [CLASSIFIED]",
+                title: "RAISA – [CLASSIFIED]",
                 access: "denied",
                 link: null
             }
