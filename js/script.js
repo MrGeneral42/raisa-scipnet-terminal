@@ -101,7 +101,7 @@ function loadCategoryEntries() {
         groups: [],
         events: [
             {
-                title: "OOTA/CCOIA/SEM0125/2026",
+                title: "ENTELECHEIA",
                 access: "denied",
                 link: null
             }
