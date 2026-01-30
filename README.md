@@ -1,1 +1,0 @@
-# raisa-scipnet-terminal
